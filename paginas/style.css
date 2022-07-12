@@ -115,7 +115,9 @@ footer {
     padding: 1em 0;
     bottom: 0;
 }
-
+.footer2 {
+    position: absolute;
+}
 .footer1 {
     display: flex;
     flex-flow: row nowrap;
