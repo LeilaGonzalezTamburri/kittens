@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(169, 169, 165);
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    padding: 15px;
+}
+
+.fondo {
+    background-image: url(../fotos/catyellow.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.menunav__lista {
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    padding: 3% 0;
+    list-style-type: none;
+
+}
+
+.menunav__lista__item a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.divIndex {
+    text-align: center;
+    margin: auto;
+}
+
+
+.divIndex h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.divIndex ol {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    list-style-type: none;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(255, 196, 0);
+}
+
+.divIndex ol li {
+    font-family: 'Nuosu SIL', serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.divIndex h2 {
+    font-size: 35px;
+    margin: 15px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: black;
+}
+
+.textbox h1 {
+    text-align: center;
+    color: rgb(255, 196, 0);
+}
+
+.textbox p {
+    text-align: center;
+    border: solid 3px rgb(255, 196, 0);
+    width: fit-content;
+    margin: 2% 30% 2% 30%;
+    padding: 20px;
+    border-radius: 2%;
+}
+
+.galeriaUbicaciones__items img {
+    width: 370px;
+    height: 300px;
+    margin-left: 5%;
+}
+
+.galeriaUbicaciones {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 0% 20%;
+}
+
+.galeriaUbicaciones__items {
+    margin-top: 5%;
+}
+
+.galeriaUbicaciones__items h2 {
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 1em 0;
+    bottom: 0;
+}
+
+.footer1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: rgba(240, 248, 255, 0.473);
+}
+
+footer a img {
+    width: 50px;
+    padding-left: 20px;
+
+}
+
+.fotosAmelie {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.fotosAmelie img {
+    padding-left: 15px;
+    width: 30%;
+    object-position: center;
+}
+
+.h1P h1 {
+    text-align: center;
+    color: rgb(255, 196, 0);
+
+}
+
+.h1P p {
+    width: fit-content;
+    border: 2px solid rgb(255, 196, 0);
+    border-radius: 1%;
+    margin: 15px 400px;
+
+}
+
+.encabezado__lista li {
+    padding-top: 10px;
+    font-family: 'Nuosu SIL', serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    list-style: none;
+
+}
+
+.encabezado__lista ul {
+    position: relative;
+    display: none;
+}
+
+.encabezado__lista li:hover ul {
+    display: block;
+}
+
+.galeriaIndex img {
+    width: 300px 200px;
+    height: 200px;
+    margin-top: 50px;
+
+}
+
+.h1Galerias {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(150px, 1fr));
+    grid-template-rows: repeat(3, 250px);
+    grid-auto-rows: 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.grid-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img:first-child {
+    grid-column: 1 / 3;
+    grid-row: 1 / span 2;
+    object-position: left;
+}
+
+img:nth-child(6) {
+    grid-row: span 2 / span 3;
+    grid-column: 4 / 6;
+    object-position: top;
+}
+
+@media (max-width: 768px) {
+    .menunav__lista {
+        padding-top: 0;
+
+    }
+
+    .menunav__lista__item {
+        margin: auto;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .divIndex h1 {
+        font-size: 30px;
+    }
+
+    .divIndex {
+        padding: 20px 0
+    }
+
+    .divIndex ol li {
+        font-size: 15px;
+        justify-content: center;
+
+    }
+
+    .divIndex h2 {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .h1P p {
+        margin: 8% 0;
+    }
+
+    .textbox p {
+        width: 60%;
+        height: 20%;
+        font-size: small;
+    }
+
+    .textbox h1 {
+        font-size: 15px;
+    }
