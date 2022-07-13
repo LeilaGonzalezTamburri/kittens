@@ -115,9 +115,11 @@ footer {
     padding: 1em 0;
     bottom: 0;
 }
+
 .footer2 {
     position: absolute;
 }
+
 .footer1 {
     display: flex;
     flex-flow: row nowrap;
@@ -218,47 +220,45 @@ img:nth-child(6) {
     object-position: top;
 }
 
-@media (max-width: 768px) {
-    .menunav__lista {
-        padding-top: 0;
+@media (max-width: 768px) .menunav__lista {
+    padding-top: 0;
+}
 
-    }
+.menunav__lista__item {
+    margin: auto;
+    font-size: 10px;
+    text-align: center;
+}
 
-    .menunav__lista__item {
-        margin: auto;
-        font-size: 10px;
-        text-align: center;
-    }
+.divIndex h1 {
+    font-size: 30px;
+}
 
-    .divIndex h1 {
-        font-size: 30px;
-    }
+.divIndex {
+    padding: 20px 0
+}
 
-    .divIndex {
-        padding: 20px 0
-    }
+.divIndex ol li {
+    font-size: 15px;
+    justify-content: center;
 
-    .divIndex ol li {
-        font-size: 15px;
-        justify-content: center;
+}
 
-    }
+.divIndex h2 {
+    font-size: 25px;
+    padding: 10px;
+}
 
-    .divIndex h2 {
-        font-size: 25px;
-        padding: 10px;
-    }
+.h1P p {
+    margin: 8% 0;
+}
 
-    .h1P p {
-        margin: 8% 0;
-    }
+.textbox p {
+    width: 60%;
+    height: 20%;
+    font-size: small;
+}
 
-    .textbox p {
-        width: 60%;
-        height: 20%;
-        font-size: small;
-    }
-
-    .textbox h1 {
-        font-size: 15px;
-    }
+.textbox h1 {
+    font-size: 15px;
+}
