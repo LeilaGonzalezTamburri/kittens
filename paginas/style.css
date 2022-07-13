@@ -173,6 +173,7 @@ footer a img {
 
 .encabezado__lista li:hover ul {
     display: block;
+    transition: 1s;
 }
 
 .galeriaIndex img {
