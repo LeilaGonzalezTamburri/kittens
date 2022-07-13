@@ -148,11 +148,10 @@ footer a img {
 }
 
 .h1P p {
-    width: fit-content;
+    width: 50%;
     border: 2px solid rgb(255, 196, 0);
     border-radius: 1%;
-    margin: 15px 400px;
-
+    
 }
 
 .encabezado__lista li {
@@ -167,11 +166,13 @@ footer a img {
 .encabezado__lista ul {
     position: relative;
     display: none;
+    transition: all .5s;
 }
 
 .encabezado__lista li:hover ul {
     display: block;
 }
+
 
 .galeriaIndex img {
     width: 300px 200px;
@@ -203,6 +204,11 @@ footer a img {
     object-fit: cover;
 }
 
+.grid-container img:hover {
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
 img:first-child {
     grid-column: 1 / 3;
     grid-row: 1 / span 2;
@@ -215,7 +221,7 @@ img:nth-child(6) {
     object-position: top;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px)  
     .menunav__lista {
         padding-top: 0;
 
