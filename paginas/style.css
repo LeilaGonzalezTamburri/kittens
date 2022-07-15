@@ -30,6 +30,9 @@ body {
 
 .divIndex h1 {
     font-family: 'Roboto', sans-serif;
+    font-weight: 700 ;
+    font-size: 40px ;
+    margin: 3% 0%;
 }
 
 .divIndex ol {
@@ -43,7 +46,6 @@ body {
 }
 
 .divIndex ol li {
-    font-family: 'Nuosu SIL', serif;
     font-size: 15px;
     display: flex;
     flex-direction: row;
@@ -51,15 +53,11 @@ body {
 }
 
 .divIndex h2 {
-    font-size: 35px;
+    font-size: 30px;
     margin: 15px;
+    font-weight: 500;
 }
 
-h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    color: black;
-}
 .formulario {
     padding: 3% 0%
 }
