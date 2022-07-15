@@ -18,8 +18,10 @@ body {
 }
 .navbar-dark .navbar-nav .nav-link {
     color: black;
-    margin-left: 70px ;
+    margin-left: 150px ;
+    
 }
+ 
 
 .divIndex {
     text-align: center;
