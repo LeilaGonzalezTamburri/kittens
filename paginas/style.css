@@ -21,6 +21,9 @@ body {
     margin-left: 150px ;
     
 }
+#navbarSupportedContent {
+    justify-content: center;
+}
  
 
 .divIndex {
