@@ -221,7 +221,11 @@ img:nth-child(6) {
     object-position: top;
 }
 
-@media (max-width: 768px)  
+.formulario {
+    border: none;
+}
+
+/* @media (max-width: 768px)  
     .menunav__lista {
         padding-top: 0;
 
@@ -264,4 +268,4 @@ img:nth-child(6) {
 
     .textbox h1 {
         font-size: 15px;
-    }
+    } */
