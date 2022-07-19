@@ -16,15 +16,17 @@ body {
     background-repeat: no-repeat;
 
 }
+
 .navbar-dark .navbar-nav .nav-link {
     color: black;
-    margin-left: 150px ;
-    
+    margin-left: 150px;
+
 }
+
 #navbarSupportedContent {
     justify-content: center;
 }
- 
+
 
 .divIndex {
     text-align: center;
@@ -35,8 +37,8 @@ body {
 
 .divIndex h1 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700 ;
-    font-size: 40px ;
+    font-weight: 700;
+    font-size: 250%;
     margin: 3% 0%;
 }
 
@@ -51,32 +53,46 @@ body {
 }
 
 .divIndex ol li {
-    font-size: 15px;
+    font-size: 100%;
     display: flex;
     flex-direction: row;
     padding: 5px;
 }
 
 .divIndex h2 {
-    font-size: 30px;
+    font-size: 2em;
     margin: 15px;
     font-weight: 500;
 }
 
 .formulario {
-    padding: 3% 0%
+    padding: 3% 0%;
+    border: none;
 }
+
 .formulario h1 {
     font-size: 30px;
     font-weight: 600;
     background-color: rgb(255, 196, 0);
     display: inline;
 }
+
+.col input {
+    border-bottom: 3px solid rgb(255, 196, 0);
+    background: transparent;
+}
+
+.form-select {
+    border-bottom: 3px solid rgb(255, 196, 0);
+    background: transparent;
+}
+
 .row {
     width: 50%;
     flex-direction: column;
     width: 100%;
-    }
+}
+
 .row h2 {
     font-size: 16px;
     margin: 5px 0px;
@@ -85,14 +101,17 @@ body {
 .carousel-inner {
     margin: 0% 0% 5% 0%;
 }
+
 .carousel-item {
     height: 500px;
     width: 100%;
 }
+
 .carousel-item img {
     height: 500px;
     object-fit: cover;
 }
+
 .textbox h1 {
     text-align: center;
     color: rgb(255, 196, 0);
@@ -120,7 +139,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-flow: row;
-    padding: 0% 20%; 
+    padding: 0% 20%;
 }
 
 .galeriaUbicaciones h2 {
@@ -182,19 +201,19 @@ footer a img {
 
 }
 
+
 .encabezado__lista li {
     padding-top: 10px;
     font-family: 'Nuosu SIL', serif;
-    color: rgb(0, 0, 0);
     text-align: center;
     list-style: none;
+    margin: 20px;
+    color: rgb(255, 196, 0);
 
 }
-
 .encabezado__lista ul {
     position: relative;
     display: none;
-    transition: all .5s;
 }
 
 .encabezado__lista li:hover ul {
@@ -250,51 +269,3 @@ img:nth-child(6) {
     object-position: top;
 }
 
-
-/* @media  screen and (max-width: 768px) 
-
-.divIndex h1 {
-    font-size: 30px;
-}
-
-.divIndex {
-    padding: 20px 0
-}
-
-.divIndex ol li {
-    font-size: 15px;
-    justify-content: center;
-
-}
-
-.divIndex h2 {
-    font-size: 25px;
-    padding: 10px;
-}
-
-.h1P h1 {
-    font-size: 30px;
-    background-color: red;
-}
-
-.textbox p {
-    width: 60%;
-    height: 20%;
-    font-size: small;
-}
-
-<<<<<<< HEAD
-.textbox h1 {
-    font-size: 15px;
-} */
-=======
-    .textbox p {
-        width: 60%;
-        height: 20%;
-        font-size: small;
-    }
-
-    .textbox h1 {
-        font-size: 15px;
-    } */
->>>>>>> develop
