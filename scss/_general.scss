@@ -10,13 +10,14 @@ body{
 
 .navbar-dark .navbar-nav .nav-link {
     color: map-get($colores, 'color-secundario' );
-    margin-left: 150px;
+    margin-left: 150px
 
 }
 
 #navbarSupportedContent {
     justify-content: center;
 }
+
 
 footer {
     text-align: center;
