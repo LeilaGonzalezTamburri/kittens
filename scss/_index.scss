@@ -1,5 +1,5 @@
 .fondo {
-    background-image: url(../fotos/fondodeverdad.jpeg);
+    background-image: url(../fotos/catyellow.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -15,14 +15,23 @@
         font-weight: 700;
         font-size: 250%;
         margin: 3% 0%;
+        @include mediaQuery ('mobile') {
+            font-size: 30px;
+            background-color: rebeccapurple;
+        }
     }
+
 
     h2 {
         font-size: 2em;
         margin: 3%;
         font-weight: 500;
+        @include mediaQuery ('mobile') {
+            font-size: 20px;
     }
  }
+}
+ 
 
     .divIndex__lista {
         text-align: center;

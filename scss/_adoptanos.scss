@@ -1,0 +1,37 @@
+.formulario {
+    padding: 3% 0%;
+    border: none;
+
+    h1 {
+        font-size: 30px;
+        font-weight: 600;
+        background-color: rgb(255, 196, 0);
+        display: inline;
+    }
+}
+
+.col input {
+    border-bottom: 3px solid rgb(255, 196, 0);
+    background: transparent;
+}
+
+.form-select {
+    border-bottom: 3px solid rgb(255, 196, 0);
+    background: transparent;
+}
+
+.row {
+    width: 50%;
+    flex-direction: column;
+    width: 100%;
+
+    h2 {
+        font-size: 16px;
+        margin: 5px 0px;
+    }
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}

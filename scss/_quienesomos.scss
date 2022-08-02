@@ -1,0 +1,48 @@
+.h1P {
+    h1 {
+        text-align: center;
+        color: rgb(255, 196, 0);
+        font-size: 40px;
+    }
+
+    p {
+        text-align: center;
+        border: solid 3px rgb(255, 196, 0);
+        width: fit-content;
+        margin: 2% 30% 2% 30%;
+        padding: 20px;
+        border-radius: 2%;
+    }
+}
+
+.encabezado__lista {
+    li {
+        padding-top: 10px;
+        font-family: 'Nuosu SIL', serif;
+        text-align: center;
+        list-style: none;
+        margin: 20px;
+    }
+
+    ul {
+        position: relative;
+        display: none;
+    }
+
+    li:hover ul {
+        display: block;
+        transition: 1.5s;
+    }
+}
+
+.fotosAmelie {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+
+    img {
+        padding-left: 15px;
+        width: 30%;
+        object-position: center;
+    }
+}
