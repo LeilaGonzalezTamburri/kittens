@@ -11,21 +11,24 @@
     padding-bottom: 20%;
 
     h1 {
+        font:{
+            weight: 700;
+            size: 250%;
+        }
         font-family: 'Roboto', sans-serif;
-        font-weight: 700;
-        font-size: 250%;
         margin: 3% 0%;
         @include mediaQuery ('mobile') {
             font-size: 30px;
-            background-color: rebeccapurple;
         }
     }
 
 
     h2 {
-        font-size: 2em;
+        font: {
+            size: 2em;
+            weight: 500;
+        }
         margin: 3%;
-        font-weight: 500;
         @include mediaQuery ('mobile') {
             font-size: 20px;
     }
