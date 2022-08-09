@@ -1,3 +1,16 @@
+/* @mixin mediaQuery ($pantalla) {
+    @if $pantalla == 'mobile' {
+        @media screen and (max-width: 320px) {
+            @content
+        }
+    }   
+};
+@if $pantalla == 'tablet' {
+    @media screen and (max-width: 720px) {
+        @content
+    }
+}
+ */
 .fondo {
   background-image: url(../fotos/catyellow.jpg);
   background-size: cover;
@@ -10,14 +23,13 @@
   padding-bottom: 20%;
 }
 .divIndex h1 {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 250%;
+  font-family: "Roboto", sans-serif;
   margin: 3% 0%;
 }
 .divIndex h2 {
   font-size: 2em;
-  margin: 3%;
   font-weight: 500;
 }
 
@@ -40,6 +52,19 @@
   padding: 5px;
 }
 
+@media screen and (max-width: 425px) {
+  .divIndex h1 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .divIndex h2 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .divIndex__lista__item {
+    font-size: 12px;
+  }
+}
 body {
   background-color: rgb(169, 169, 165);
   font-family: "Roboto", sans-serif;
@@ -119,6 +144,11 @@ footer a img {
      object-fit: cover;
 }
 
+@media screen and (max-width: 425px) {
+  .formulario h1 {
+    font-size: 20px;
+  }
+}
 .h1Galerias {
   text-align: center;
 }
@@ -160,6 +190,11 @@ img:nth-child(6) {
      object-position: top;
 }
 
+@media screen and (max-width: 768px) {
+  .grid-container {
+    display: block;
+  }
+}
 .h1P h1 {
   text-align: center;
   color: rgb(255, 196, 0);
@@ -204,6 +239,21 @@ img:nth-child(6) {
      object-position: center;
 }
 
+@media screen and (max-width: 768px) {
+  .h1P h1 {
+    font-size: 30px;
+  }
+  .h1P p {
+    height: 150px;
+    overflow: scroll;
+    display: block;
+    font-size: 15px;
+    width: 200px;
+  }
+  .encabezado__lista li {
+    font-size: 15px;
+  }
+}
 .textbox h1 {
   text-align: center;
   color: rgb(255, 196, 0);
@@ -242,4 +292,24 @@ img:nth-child(6) {
   width: 400px;
   height: 300px;
   border: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .textbox h1 {
+    font-size: 30px;
+  }
+  .textbox p {
+    height: 150px;
+    overflow: scroll;
+    display: block;
+    width: 200px;
+  }
+  .galeriaUbicaciones__items img {
+    width: 200px;
+    height: 150px;
+  }
+  .mapa {
+    width: 200px;
+    height: 150px;
+  }
 }/*# sourceMappingURL=main.css.map */

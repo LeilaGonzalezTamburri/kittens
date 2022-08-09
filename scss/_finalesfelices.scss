@@ -37,3 +37,9 @@ img:nth-child(6) {
     grid-column: 4 / 6;
     object-position: top;
 }
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        display: block;
+    }
+}

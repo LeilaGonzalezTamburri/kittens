@@ -46,3 +46,19 @@
         object-position: center;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .h1P h1 {
+        font-size: 30px;
+    }
+    .h1P p {
+        height: 150px;
+        overflow: scroll;
+        display: block;
+        font-size: 15px;
+        width: 200px;
+    }
+    .encabezado__lista li {
+        font-size: 15px;
+    }
+}

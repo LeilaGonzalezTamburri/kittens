@@ -38,3 +38,9 @@
     height: 500px;
     object-fit: cover;
 }
+
+@media screen and (max-width: 425px) {
+    .formulario h1 {
+        font-size: 20px;
+      }
+}

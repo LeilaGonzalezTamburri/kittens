@@ -4,7 +4,7 @@ $colores: (
     color-secundario: black 
 );
 
-@mixin mediaQuery ($pantalla) {
+/* @mixin mediaQuery ($pantalla) {
     @if $pantalla == 'mobile' {
         @media screen and (max-width: 320px) {
             @content
@@ -16,3 +16,4 @@ $colores: (
         @content
     }
 }
+ */

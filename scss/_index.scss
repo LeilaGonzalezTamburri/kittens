@@ -15,11 +15,10 @@
             weight: 700;
             size: 250%;
         }
-        font-family: 'Roboto', sans-serif;
+
+        font-family: 'Roboto',
+        sans-serif;
         margin: 3% 0%;
-        @include mediaQuery ('mobile') {
-            font-size: 30px;
-        }
     }
 
 
@@ -28,31 +27,39 @@
             size: 2em;
             weight: 500;
         }
-        margin: 3%;
-        @include mediaQuery ('mobile') {
-            font-size: 20px;
     }
- }
 }
- 
 
-    .divIndex__lista {
-        text-align: center;
-        width: fit-content;
-        margin: auto;
-        padding: 4px;
-        list-style-type: none;
-        border: 3px solid rgb(0, 0, 0);
-        border-radius: 20px;
-        background-color: map-get($colores, "color-principal");
 
-        &__item {
-            font-size: 100%;
-            display: flex;
-            flex-direction: row;
-            padding: 5px;
-        }
+.divIndex__lista {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 4px;
+    list-style-type: none;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: map-get($colores, "color-principal");
+
+    &__item {
+        font-size: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .divIndex h1 {
+        font-weight: 500;
+        font-size: 20px;
     }
 
-    
-
+    .divIndex h2 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .divIndex__lista__item {
+        font-size: 12px;
+      }
+}
