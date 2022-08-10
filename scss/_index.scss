@@ -49,7 +49,8 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+
+@media screen and (max-width: 768px) {
     .divIndex h1 {
         font-weight: 500;
         font-size: 20px;
@@ -61,5 +62,8 @@
     }
     .divIndex__lista__item {
         font-size: 12px;
-      }
+    }
+    .boton {
+        display: inline !important;
+    }
 }
