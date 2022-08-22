@@ -1,4 +1,6 @@
 .textbox {
+
+    padding: 50px 0px;
     h1 {
         text-align: center;
         color: map-get($colores , "color-principal" );
@@ -9,7 +11,7 @@
         text-align: center;
         border: solid 3px rgb(255, 196, 0);
         width: fit-content;
-        margin: 2% 30% 2% 30%;
+        margin: 2% 30%;
         padding: 20px;
         border-radius: 2%;
     }
@@ -51,7 +53,8 @@
         height: 150px;
         overflow: scroll;
         display: block;
-        width: 200px;
+        margin: auto;
+        width: 300px;
     }
 
     .galeriaUbicaciones__items img {
